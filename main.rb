@@ -120,11 +120,21 @@ puts student
 
 # 8.0 Methods
 # TODO: Method with enclosed params
+def count_students(param)
+puts param
+"Hello return value"
+90
+end
+counted = count_students("Hello guys,cat")  #the return value is always the last value ie in our case its 90.
+puts counted
 
 # TODO: Method with open params
+def  count_tms param1, param2
+    param1 + param2
+    
+end
 
-
-
-
+counted_tms = count_tms(10, 20)
+puts counted_tms
 
 
